@@ -1,6 +1,7 @@
 $(function () {
     var layer = layui.layer;
     // 获取用户信息
+    window.initUserInfo = initUserInfo;
     initUserInfo();
     function initUserInfo() {
         // $.ajax({
